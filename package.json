@@ -1,0 +1,21 @@
+{
+  "name": "nextapp",
+  "version": "1.0.0",
+  "description": "Hello World App for Next JS",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "heroku-postbuild": "next build"
+  },
+  "main": "index.js",
+  "author": "Vaibhav Sharma",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "^7.0.2",
+    "node-fetch": "^2.3.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
